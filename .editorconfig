@@ -1,0 +1,13 @@
+[*.cs]
+
+# Root configuration file, can override other settings in the project
+root = true
+
+# All C# files
+[*.cs]
+# Organize usings: sort and remove unused using directives
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = true
+
+# Default severity for analyzer diagnostics with category 'Style'
+dotnet_analyzer_diagnostic.category-Style.severity = none
